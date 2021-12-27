@@ -12,27 +12,23 @@ public class CalculatorWithCounterAutoAgregation {
     private CalculatorWithMathExtends calculatorWithMathExtends;
 
 
-    public CalculatorWithCounterAutoAgregation(CalculatorWithMathExtends calculatorWithMathExtends){
+    public CalculatorWithCounterAutoAgregation(CalculatorWithMathExtends calculatorWithMathExtends) {
         this.calculatorWithMathExtends = calculatorWithMathExtends;
     }
 
-    public CalculatorWithCounterAutoAgregation(CalculatorWithMathCopy calculatorWithMathCopy){
+    public CalculatorWithCounterAutoAgregation(CalculatorWithMathCopy calculatorWithMathCopy) {
         this.calculatorWithMathCopy = calculatorWithMathCopy;
     }
-    public CalculatorWithCounterAutoAgregation(CalculatorWithOperator calculatorWithOperator){
+
+    public CalculatorWithCounterAutoAgregation(CalculatorWithOperator calculatorWithOperator) {
         this.calculatorWithOperator = calculatorWithOperator;
     }
 
-    public long getCounter() {
-        return counter;
-    }
-
-
-    public void incrementCountOperation(){
+    public void incrementCountOperation() {
         counter++;
     }
 
-    public long getCountOperation(){
+    public long getCountOperation() {
         return counter;
     }
 

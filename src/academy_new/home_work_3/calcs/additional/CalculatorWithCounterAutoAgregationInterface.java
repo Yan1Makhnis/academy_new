@@ -11,10 +11,6 @@ public class CalculatorWithCounterAutoAgregationInterface {
         this.calculator = calculator;
     }
 
-    public long getCounter() {
-        return counter;
-    }
-
     public void incrementCountOperation(){
         counter++;
     }

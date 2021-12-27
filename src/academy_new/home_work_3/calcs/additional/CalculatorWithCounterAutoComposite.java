@@ -7,11 +7,6 @@ public class CalculatorWithCounterAutoComposite {
     private long counter;
     private CalculatorWithMathCopy calculatorWithMathCopy= new CalculatorWithMathCopy();
 
-    public long getCounter() {
-        return counter;
-    }
-
-
     public void incrementCountOperation(){
         counter++;
     }

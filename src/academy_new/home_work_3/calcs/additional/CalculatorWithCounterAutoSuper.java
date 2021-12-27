@@ -3,11 +3,7 @@ package academy_new.home_work_3.calcs.additional;
 import academy_new.home_work_3.calcs.simple.CalculatorWithMathExtends;
 
 public class CalculatorWithCounterAutoSuper extends CalculatorWithMathExtends {
-    private int counter;
-
-    public int getCounter() {
-        return counter;
-    }
+    private long counter;
 
     public void incrementCountOperation(){
         counter++;
