@@ -5,7 +5,12 @@ import academy_new.home_work_3.calcs.api.ICalculator;
 public class CalculatorWithMathCopy implements ICalculator {
     private double a;
     private double b;
+    private double res;
     private int pow;
+
+    public double getRes() {
+        return res;
+    }
 
     public double getA() {
         return a;
@@ -20,31 +25,38 @@ public class CalculatorWithMathCopy implements ICalculator {
     }
 
     public double sum(double a, double b) {
-        return a + b;
+        res = a + b;
+        return res;
     }
 
     public double diff(double a, double b) {
-        return a - b;
+        res = a - b;
+        return res;
     }
 
     public double multip(double a, double b) {
-        return a * b;
+        res = a * b;
+        return res;
     }
 
     public double division(double a, double b) {
-        return a / b;
+        res = a / b;
+        return res;
     }
 
     public double mPow(double a, int pow) {
-        return Math.pow(a,pow);
+        res = Math.pow(a, pow);
+        return res;
     }
 
     public double abs(double a) {
-        return Math.abs(a);
+        res = Math.abs(a);
+        return res;
     }
 
     public double sqrt(double a) {
-        return Math.sqrt(a);
+        res = Math.sqrt(a);
+        return res;
     }
 }
 
