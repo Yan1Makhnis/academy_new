@@ -1,6 +1,8 @@
 package academy_new.home_work_3.calcs.simple;
 
-public class CalculatorWithMathCopy {
+import academy_new.home_work_3.calcs.api.ICalculator;
+
+public class CalculatorWithMathCopy implements ICalculator {
     private double a;
     private double b;
     private int pow;

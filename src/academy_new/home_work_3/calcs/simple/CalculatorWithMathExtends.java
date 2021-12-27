@@ -1,6 +1,8 @@
 package academy_new.home_work_3.calcs.simple;
 
-public class CalculatorWithMathExtends extends CalculatorWithOperator{
+import academy_new.home_work_3.calcs.api.ICalculator;
+
+public class CalculatorWithMathExtends extends CalculatorWithOperator implements ICalculator {
 
     @Override
     public double mPow(double a, int pow) {

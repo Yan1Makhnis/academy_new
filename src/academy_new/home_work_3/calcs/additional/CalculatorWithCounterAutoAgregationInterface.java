@@ -1,16 +1,19 @@
 package academy_new.home_work_3.calcs.additional;
 
-import academy_new.home_work_3.calcs.simple.CalculatorWithMathCopy;
+import academy_new.home_work_3.calcs.api.ICalculator;
 
+public class CalculatorWithCounterAutoAgregationInterface {
 
-public class CalculatorWithCounterAutoComposite {
     private long counter;
-    private CalculatorWithMathCopy calculatorWithMathCopy= new CalculatorWithMathCopy();
+    private ICalculator calculator;
+
+    public CalculatorWithCounterAutoAgregationInterface(ICalculator calculator) {
+        this.calculator = calculator;
+    }
 
     public long getCounter() {
         return counter;
     }
-
 
     public void incrementCountOperation(){
         counter++;
@@ -22,37 +25,40 @@ public class CalculatorWithCounterAutoComposite {
 
     public double sum(double a, double b) {
         this.incrementCountOperation();
-        return calculatorWithMathCopy.sum(a,b);
+        return calculator.sum(a,b);
     }
 
     public double diff(double a, double b) {
         this.incrementCountOperation();
-        return calculatorWithMathCopy.diff(a,b);
+        return calculator.diff(a,b);
     }
 
     public double multip(double a, double b) {
         this.incrementCountOperation();
-        return calculatorWithMathCopy.multip(a,b);
+        return calculator.multip(a,b);
     }
 
     public double division(double a, double b) {
         this.incrementCountOperation();
-        return calculatorWithMathCopy.division(a,b);
+        return calculator.division(a,b);
     }
 
     public double mPow(double a, int pow) {
         this.incrementCountOperation();
-        return calculatorWithMathCopy.mPow(a,pow);
+        return calculator.mPow(a,pow);
     }
 
     public double abs(double a) {
         this.incrementCountOperation();
-        return calculatorWithMathCopy.abs(a);
+        return calculator.abs(a);
     }
 
     public double sqrt(double a) {
         this.incrementCountOperation();
-        return calculatorWithMathCopy.sqrt(a);
+        return calculator.sqrt(a);
     }
+
+
 }
+
 
