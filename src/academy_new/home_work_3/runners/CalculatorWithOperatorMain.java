@@ -1,4 +1,4 @@
-package academy_new.home_work_3.calcs.runners;
+package academy_new.home_work_3.runners;
 
 import academy_new.home_work_3.calcs.simple.CalculatorWithOperator;
 

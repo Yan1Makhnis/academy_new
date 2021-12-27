@@ -1,4 +1,4 @@
-package academy_new.home_work_3.calcs.runners;
+package academy_new.home_work_3.runners;
 
 //Создать класс CalculatorWithCounterClassicMain в котором будет точка входа (main метод).
 //        В main методе требуется создать экземпляр калькулятора и используя методы из данного экземпляра посчитать выражения из задания 1,
