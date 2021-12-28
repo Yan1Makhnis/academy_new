@@ -1,6 +1,6 @@
-package academy_new.home_work_3.calcs.simple;
+package academy2.home_work_3.calcs.simple;
 
-import academy_new.home_work_3.calcs.api.ICalculator;
+import academy2.home_work_3.calcs.api.ICalculator;
 
 public class CalculatorWithMathExtends extends CalculatorWithOperator implements ICalculator {
 

@@ -1,11 +1,11 @@
-package academy_new.home_work_3.runners;
+package academy2.home_work_3.runners;
 
 //Создать класс CalculatorWithCounterClassicMain в котором будет точка входа (main метод).
 //        В main методе требуется создать экземпляр калькулятора и используя методы из данного экземпляра посчитать выражения из задания 1,
 //        при каждой математической операции самостоятельно вызывать метод incrementCountOperation() для увеличения счётчика.
 //        Вывести в консоль результат.
 
-import academy_new.home_work_3.calcs.additional.CalculatorWithCounterClassic;
+import academy2.home_work_3.calcs.additional.CalculatorWithCounterClassic;
 
 public class CalculatorWithCounterClassicMain {
     public static void main(String[] args) {

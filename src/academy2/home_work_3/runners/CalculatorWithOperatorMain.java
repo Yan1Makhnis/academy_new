@@ -1,6 +1,6 @@
-package academy_new.home_work_3.runners;
+package academy2.home_work_3.runners;
 
-import academy_new.home_work_3.calcs.simple.CalculatorWithOperator;
+import academy2.home_work_3.calcs.simple.CalculatorWithOperator;
 
 public class CalculatorWithOperatorMain {
     public static void main(String[] args) {

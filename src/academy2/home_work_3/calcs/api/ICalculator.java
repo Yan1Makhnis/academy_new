@@ -1,4 +1,4 @@
-package academy_new.home_work_3.calcs.api;
+package academy2.home_work_3.calcs.api;
 
 public interface ICalculator {
 

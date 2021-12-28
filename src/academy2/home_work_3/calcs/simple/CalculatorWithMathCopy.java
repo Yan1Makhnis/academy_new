@@ -1,11 +1,16 @@
-package academy_new.home_work_3.calcs.simple;
+package academy2.home_work_3.calcs.simple;
 
-import academy_new.home_work_3.calcs.api.ICalculator;
+import academy2.home_work_3.calcs.api.ICalculator;
 
-public class CalculatorWithOperator implements ICalculator {
+public class CalculatorWithMathCopy implements ICalculator {
     private double a;
     private double b;
+    private double res;
     private int pow;
+
+    public double getRes() {
+        return res;
+    }
 
     public double getA() {
         return a;
@@ -20,35 +25,38 @@ public class CalculatorWithOperator implements ICalculator {
     }
 
     public double sum(double a, double b) {
-        return a + b;
+        res = a + b;
+        return res;
     }
 
     public double diff(double a, double b) {
-        return a - b;
+        res = a - b;
+        return res;
     }
 
     public double multip(double a, double b) {
-        return a * b;
+        res = a * b;
+        return res;
     }
 
     public double division(double a, double b) {
-        return a / b;
+        res = a / b;
+        return res;
     }
 
     public double mPow(double a, int pow) {
-        double result = 1;
-        for (int i = 1; i <= pow; i++) {
-            result = a * result;
-        }
-        return result;
+        res = Math.pow(a, pow);
+        return res;
     }
 
     public double abs(double a) {
-        return ((a < 0) ? -a : a);
+        res = Math.abs(a);
+        return res;
     }
 
     public double sqrt(double a) {
-        return Math.sqrt(a);
+        res = Math.sqrt(a);
+        return res;
     }
 }
 

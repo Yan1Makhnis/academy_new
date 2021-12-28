@@ -1,6 +1,6 @@
-package academy_new.home_work_3.calcs.additional;
+package academy2.home_work_3.calcs.additional;
 
-import academy_new.home_work_3.calcs.simple.CalculatorWithMathCopy;
+import academy2.home_work_3.calcs.simple.CalculatorWithMathCopy;
 
 public class CalculatorWithMemory {
 

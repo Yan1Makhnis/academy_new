@@ -1,4 +1,4 @@
-package academy_new.home_work_3.runners;
+package academy2.home_work_3.runners;
 
 public class WithoutCalculatorMain {
     public static void main(String[] args) {
