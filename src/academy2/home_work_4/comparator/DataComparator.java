@@ -1,7 +1,5 @@
 package academy2.home_work_4.comparator;
 
-import academy2.home_work_4.DataContainer;
-
 import java.util.Comparator;
 
 public class DataComparator implements Comparator<Integer > {
